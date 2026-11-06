@@ -1,0 +1,81 @@
+# ECS admin settings.
+# ONLY CHANGE THIS ONE LINE: put your GitHub username in place of YOUR-GITHUB-USERNAME
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/ecs-portfolio
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  commit_messages:
+    update: "Update {{collection}} “{{slug}}”"
+    uploadMedia: "Upload “{{path}}”"
+
+site_url: /
+display_url: /
+logo_url: /assets/ecs-mark-600.png
+media_folder: uploads
+public_folder: /uploads
+
+collections:
+  - name: work
+    label: "Portfolio work"
+    editor: { preview: false }
+    files:
+      - name: projects
+        label: "Projects (add / edit / delete work here)"
+        file: content/projects.json
+        format: json
+        fields:
+          - label: "Projects"
+            name: projects
+            widget: list
+            label_singular: "project"
+            summary: "{{fields.title}}  ·  {{fields.category}}"
+            add_to_top: true
+            fields:
+              - { label: "Title", name: title, widget: string, hint: "e.g. Royalty Scent — End of Year Sales" }
+              - { label: "Client", name: client, widget: string, required: false }
+              - label: "Category"
+                name: category
+                widget: select
+                options: ["Draw it", "Move it", "Print it"]
+                default: "Print it"
+              - { label: "Show in Featured row", name: featured, widget: boolean, default: false }
+              - { label: "Cover image (shows on the grid)", name: cover, widget: image, hint: "Portrait works best (4:5 or 9:16). JPG under 1 MB." }
+              - { label: "Video file (MP4)", name: video, widget: file, required: false, hint: "Optional. Keep under 20 MB (export H.264 1080x1920). For bigger videos use the link field below." }
+              - { label: "OR video link (Instagram reel / YouTube / TikTok)", name: video_link, widget: string, required: false }
+              - label: "More images"
+                name: images
+                widget: list
+                required: false
+                summary: "{{fields.image}}"
+                field: { label: "Image", name: image, widget: image }
+              - { label: "Description", name: description, widget: text, required: false }
+              - { label: "Services (e.g. Flyer · Motion ad · Music)", name: services, widget: string, required: false }
+              - { label: "Date", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, hint: "Newest shows first" }
+
+  - name: settings
+    label: "Site settings"
+    editor: { preview: false }
+    files:
+      - name: site
+        label: "Studio info, contacts & how to order"
+        file: content/site.json
+        format: json
+        fields:
+          - { label: "Studio name", name: studio_name, widget: string }
+          - { label: "Tagline", name: tagline, widget: string }
+          - { label: "Headline (2 sentences — the 2nd gets the gradient)", name: headline, widget: string }
+          - { label: "Intro", name: intro, widget: text }
+          - { label: "About", name: about, widget: text }
+          - { label: "WhatsApp number (e.g. 08012345678)", name: whatsapp, widget: string, required: false }
+          - { label: "Instagram username (no @)", name: instagram, widget: string, required: false }
+          - { label: "Email", name: email, widget: string, required: false }
+          - { label: "Location", name: location, widget: string, required: false }
+          - label: "How to order — steps"
+            name: order_steps
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: text, widget: text }

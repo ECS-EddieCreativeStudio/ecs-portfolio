@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eddie Creative Studio — Portfolio</title>
+<meta name="description" content="ECS · Eddie Creative Studio — flyers, packaging, motion ads and smudge portraits. Draw it · Move it · Print it.">
+<meta property="og:title" content="Eddie Creative Studio — Portfolio">
+<meta property="og:description" content="Draw it · Move it · Print it. Flyers, packaging, motion ads and smudge art.">
+<meta property="og:image" content="/assets/ecs-mark-600.png">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Eddie Creative Studio home"><img src="/assets/ecs-mark.png" alt=""><span>ECS</span></a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#order">How to order</a>
+    <a class="btn btn-sm" href="#contact">Book now</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+    <img class="hero-mark" src="/assets/ecs-mark.png" alt="ECS logo">
+    <p class="eyebrow" data-site="tagline">Draw it · Move it · Print it</p>
+    <h1 data-site="headline">Designs that sell. Motion that stops the scroll.</h1>
+    <p class="lead" data-site="intro"></p>
+    <div class="hero-cta">
+      <a class="btn" href="#work">See the work</a>
+      <a class="btn btn-ghost js-wa" href="#contact">DM “ECS” to book</a>
+    </div>
+  </section>
+
+  <section id="featured" class="section" hidden>
+    <div class="section-head"><p class="eyebrow">Featured</p><h2>Recent highlights</h2></div>
+    <div class="featured-row" id="featuredRow"></div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Portfolio</p>
+      <h2>Selected work</h2>
+    </div>
+    <div class="filters" role="tablist" aria-label="Filter work">
+      <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="chip" data-filter="Draw it" role="tab" aria-selected="false">Draw it</button>
+      <button class="chip" data-filter="Move it" role="tab" aria-selected="false">Move it</button>
+      <button class="chip" data-filter="Print it" role="tab" aria-selected="false">Print it</button>
+    </div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <p class="empty" id="empty" hidden>No projects in this category yet.</p>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="about-card">
+      <p class="eyebrow">About ECS</p>
+      <h2>Eddie Creative Studio</h2>
+      <p data-site="about"></p>
+      <div class="services">
+        <div class="service"><span class="num">01</span><h3>Draw it</h3><p>Smudge portraits, characters, mascots and lettering.</p></div>
+        <div class="service"><span class="num">02</span><h3>Move it</h3><p>Motion graphics and animated ads for Reels, TikTok and Status.</p></div>
+        <div class="service"><span class="num">03</span><h3>Print it</h3><p>Flyers, packaging, tees, ID cards, flex and banners.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="section">
+    <div class="section-head"><p class="eyebrow">How to order</p><h2>From brief to files in four steps</h2></div>
+    <ol class="steps" id="steps"></ol>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="eyebrow">Commissions are open</p>
+    <h2>Let’s make your brand look expensive.</h2>
+    <p class="lead">Send “ECS” with what you need — flyer, motion ad, packaging or art.</p>
+    <div class="contact-links" id="contactLinks"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <img src="/assets/ecs-mark.png" alt="" aria-hidden="true">
+  <p><span data-site="studio_name">Eddie Creative Studio</span> · <span data-site="tagline">Draw it · Move it · Print it</span></p>
+  <p class="small">© <span id="year"></span> ECS. All client work shown with permission.</p>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box">
+    <button class="modal-close" data-close aria-label="Close project">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="modal-media" id="mMedia"></div>
+    <div class="modal-info">
+      <p class="eyebrow" id="mCat"></p>
+      <h3 id="mTitle"></h3>
+      <p class="client" id="mClient"></p>
+      <p id="mDesc"></p>
+      <p class="services-line" id="mServices"></p>
+      <a class="btn js-wa" href="#contact">Want one like this? Book now</a>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>

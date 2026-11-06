@@ -1,0 +1,8 @@
+# No build step — Netlify serves the files as they are.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-cache"

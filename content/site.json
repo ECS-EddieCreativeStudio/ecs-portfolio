@@ -1,0 +1,17 @@
+{
+  "studio_name": "Eddie Creative Studio",
+  "tagline": "Draw it · Move it · Print it",
+  "headline": "Designs that sell. Motion that stops the scroll.",
+  "intro": "Flyers, packaging, motion ads and smudge portraits for brands that want to look premium. Based in Nigeria, working with clients everywhere.",
+  "about": "ECS is a creative studio led by Eddie. From a single flyer to a full launch — print design, packaging, 3D motion ads in Blender and hand-drawn smudge art — every piece is made to make your brand look expensive and get people talking.",
+  "whatsapp": "",
+  "instagram": "eddiecreativestudio",
+  "email": "",
+  "location": "Nigeria",
+  "order_steps": [
+    { "title": "Send your brief", "text": "DM \"ECS\" on Instagram or WhatsApp with what you need, your logo, photos and details." },
+    { "title": "Get a quote & concept", "text": "You get a price, timeline and a first idea of how it will look." },
+    { "title": "Review & refine", "text": "We adjust colours, wording and layout until it feels right." },
+    { "title": "Receive your files", "text": "Print-ready files, social sizes and motion ads ready to post." }
+  ]
+}
