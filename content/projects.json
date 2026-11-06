@@ -1,44 +1,148 @@
 {
   "projects": [
-    { "title": "Royalty Scent — End of Year Sales", "client": "Royalty Scent", "category": "Move it", "featured": true,
-      "cover": "/uploads/royalty-scent-ad-poster.jpg", "video": "/uploads/royalty-scent-ad.mp4", "video_link": "",
-      "images": [ { "image": "/uploads/royalty-scent-flyer.jpg" }, { "image": "/uploads/royalty-scent-ad-frame.jpg" } ],
+    {
+      "client": "Royalty Scent",
+      "featured": true,
+      "date": "2026-11-06",
+      "cover": "/uploads/royalty-scent-ad-poster.jpg",
+      "title": "Royalty Scent — End of Year Sales",
+      "images": [
+        {
+          "image": "/uploads/royalty-scent-flyer.jpg"
+        },
+        {
+          "image": "/uploads/royalty-scent-ad-frame.jpg"
+        }
+      ],
+      "video": "/uploads/royalty-scent-ad.mp4",
       "description": "Sales flyer turned into a 30-second motion ad: perfume-mist reveal, product drop, gift-box burst and an original Amapiano soundtrack.",
-      "services": "Flyer design · 30 s motion ad · Music & sound", "date": "2026-11-06" },
-    { "title": "King & Queens — Royal Unveiling", "client": "King & Queens White Fabrics", "category": "Move it", "featured": true,
-      "cover": "/uploads/king-queens-ad-poster.jpg", "video": "/uploads/king-queens-ad.mp4", "video_link": "",
-      "images": [], "description": "A 30-second ad for a white-fabric store: satin cloth unveiling, garment procession and a gold seal spin, with a harvest-and-convention praise soundtrack.",
-      "services": "30 s motion ad · Cloth simulation · Music", "date": "2026-10-27" },
-    { "title": "Accolades Beauty Spa — Luxury Ad", "client": "Accolades Beauty Spa", "category": "Move it", "featured": false,
-      "cover": "/uploads/accolades-spa-ad-poster.jpg", "video": "/uploads/accolades-spa-ad.mp4", "video_link": "",
-      "images": [], "description": "A 25-second luxury spa ad built from the client's flyer: gold rings, photo blooms and nine service tiles.",
-      "services": "25 s motion ad", "date": "2026-10-26" },
-    { "title": "ST STORE — Slay Week 2.0", "client": "ST STORE", "category": "Print it", "featured": true,
-      "cover": "/uploads/st-store-flyer.jpg", "video": "", "video_link": "",
-      "images": [ { "image": "/uploads/st-store-ad-frame.jpg" } ],
+      "services": "Flyer design · 30 s motion ad · Music & sound",
+      "category": "Move it",
+      "video_link": ""
+    },
+    {
+      "client": "King & Queens White Fabrics",
+      "featured": true,
+      "date": "2026-10-27",
+      "cover": "/uploads/king-queens-ad-poster.jpg",
+      "title": "King & Queens — Royal Unveiling",
+      "images": [],
+      "video": "/uploads/king-queens-ad.mp4",
+      "description": "A 30-second ad for a white-fabric store: satin cloth unveiling, garment procession and a gold seal spin, with a harvest-and-convention praise soundtrack.",
+      "services": "30 s motion ad · Cloth simulation · Music",
+      "category": "Move it",
+      "video_link": ""
+    },
+    {
+      "client": "Accolades Beauty Spa",
+      "featured": false,
+      "date": "2026-10-26",
+      "cover": "/uploads/accolades-spa-ad-poster.jpg",
+      "title": "Accolades Beauty Spa — Luxury Ad",
+      "images": [],
+      "video": "/uploads/accolades-spa-ad.mp4",
+      "description": "A 25-second luxury spa ad built from the client's flyer: gold rings, photo blooms and nine service tiles.",
+      "services": "25 s motion ad",
+      "category": "Move it",
+      "video_link": ""
+    },
+    {
+      "client": "ST STORE",
+      "featured": true,
+      "date": "2026-10-29",
+      "cover": "/uploads/st-store-flyer.jpg",
+      "title": "ST STORE — Slay Week 2.0",
+      "images": [
+        {
+          "image": "/uploads/st-store-ad-frame.jpg"
+        }
+      ],
+      "video": "",
       "description": "December sales flyer plus a 30-second 'unboxing' motion ad with products flying out of the shopping bag.",
-      "services": "Sales flyer · 30 s motion ad", "date": "2026-10-29" },
-    { "title": "Dammy Tombrown — Flyer & Pouch", "client": "Dammy Tombrown", "category": "Print it", "featured": false,
-      "cover": "/uploads/tombrown-pouch-front.jpg", "video": "", "video_link": "",
-      "images": [ { "image": "/uploads/tombrown-flyer.jpg" }, { "image": "/uploads/tombrown-pouch-back.jpg" } ],
+      "services": "Sales flyer · 30 s motion ad",
+      "category": "Print it",
+      "video_link": ""
+    },
+    {
+      "client": "Dammy Tombrown",
+      "featured": false,
+      "date": "2026-10-29",
+      "cover": "/uploads/tombrown-pouch-front.jpg",
+      "title": "Dammy Tombrown — Flyer & Pouch",
+      "images": [
+        {
+          "image": "/uploads/tombrown-flyer.jpg"
+        },
+        {
+          "image": "/uploads/tombrown-pouch-back.jpg"
+        }
+      ],
+      "video": "",
       "description": "A premium cocoa-and-gold look for a tombrown brand: a 9:16 social flyer and a stand-up pouch design, front and back.",
-      "services": "Flyer · Packaging design", "date": "2026-10-29" },
-    { "title": "Pearl's Hub — Sales Flyer Redesign", "client": "Pearl's Hub", "category": "Print it", "featured": false,
-      "cover": "/uploads/pearls-hub-flyer-layout.jpg", "video": "", "video_link": "",
-      "images": [], "description": "Redesign of a cluttered AI flyer into a clean, premium sales layout for bags and slippers.",
-      "services": "Flyer redesign", "date": "2026-10-31" },
-    { "title": "Abotech Wheels — Palisade Showcase", "client": "Abotech Wheels", "category": "Move it", "featured": false,
-      "cover": "/uploads/abotech-palisade-ad.jpg", "video": "", "video_link": "",
-      "images": [], "description": "A single-vehicle ad for a 2023 Hyundai Palisade, from the dealer's phone footage: stabilised, graded, with spec cards and price slam.",
-      "services": "30 s vehicle ad", "date": "2026-11-05" },
-    { "title": "Davina's 1st Bloom — Title Art", "client": "Personal", "category": "Draw it", "featured": false,
-      "cover": "/uploads/davina-1st-bloom-title.jpg", "video": "", "video_link": "",
-      "images": [], "description": "Gold-and-pink celebration title lettering with crown, flower and tagline, prepared as a clean transparent artwork.",
-      "services": "Title lettering", "date": "2026-11-05" },
-    { "title": "Meet ECS — Brand Carousel", "client": "Eddie Creative Studio", "category": "Draw it", "featured": false,
-      "cover": "/uploads/meet-ecs-01.jpg", "video": "", "video_link": "",
-      "images": [ { "image": "/uploads/meet-ecs-03.jpg" }, { "image": "/uploads/meet-ecs-08.jpg" } ],
+      "services": "Flyer · Packaging design",
+      "category": "Print it",
+      "video_link": ""
+    },
+    {
+      "client": "Pearl's Hub",
+      "featured": false,
+      "date": "2026-10-31",
+      "cover": "/uploads/pearls-hub-flyer-layout.jpg",
+      "title": "Pearl's Hub — Sales Flyer Redesign",
+      "images": [],
+      "video": "",
+      "description": "Redesign of a cluttered AI flyer into a clean, premium sales layout for bags and slippers.",
+      "services": "Flyer redesign",
+      "category": "Print it",
+      "video_link": ""
+    },
+    {
+      "client": "Abotech Wheels",
+      "featured": false,
+      "date": "2026-11-05",
+      "cover": "/uploads/abotech-palisade-ad.jpg",
+      "title": "Abotech Wheels — Palisade Showcase",
+      "images": [],
+      "video": "",
+      "description": "A single-vehicle ad for a 2023 Hyundai Palisade, from the dealer's phone footage: stabilised, graded, with spec cards and price slam.",
+      "services": "30 s vehicle ad",
+      "category": "Move it",
+      "video_link": ""
+    },
+    {
+      "client": "Personal",
+      "featured": false,
+      "date": "2026-11-05",
+      "cover": "/uploads/davina01.jpg",
+      "title": "Davina's 1st Bloom — Title Art",
+      "images": [
+        "/uploads/ord.jpg"
+      ],
+      "video": "",
+      "description": "Gold-and-pink celebration title lettering with crown, flower and tagline, prepared as a clean transparent artwork.",
+      "services": "Title lettering",
+      "category": "Draw it",
+      "video_link": ""
+    },
+    {
+      "client": "Eddie Creative Studio",
+      "featured": false,
+      "date": "2026-10-27",
+      "cover": "/uploads/meet-ecs-01.jpg",
+      "title": "Meet ECS — Brand Carousel",
+      "images": [
+        {
+          "image": "/uploads/meet-ecs-03.jpg"
+        },
+        {
+          "image": "/uploads/meet-ecs-08.jpg"
+        }
+      ],
+      "video": "",
       "description": "The ECS launch carousel for Instagram — Draw it, Move it, Print it.",
-      "services": "Brand · Social carousel", "date": "2026-10-27" }
+      "services": "Brand · Social carousel",
+      "category": "Draw it",
+      "video_link": ""
+    }
   ]
 }
