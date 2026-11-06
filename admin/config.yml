@@ -6,6 +6,7 @@ backend:
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
+  site_domain:  eddiecreativestudio.netlify.app
   commit_messages:
     update: "Update {{collection}} “{{slug}}”"
     uploadMedia: "Upload “{{path}}”"
