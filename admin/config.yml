@@ -2,7 +2,7 @@
 # ONLY CHANGE THIS ONE LINE: put your GitHub username in place of YOUR-GITHUB-USERNAME
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/ecs-portfolio
+  repo: ECS-EddieCreativeStudio/ecs-portfolio
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
